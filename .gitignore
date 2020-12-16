@@ -1,1 +1,6 @@
 env
+products
+myshop/__pycache__
+shop/__pycache__
+shop/migrations/__pycache__
+db.sqlite3
