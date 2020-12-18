@@ -10,3 +10,5 @@ cart/migrations/__pycache__
 cart/migrations/__pycache__
 *.pyc
 cart/migrations/__pycache__/__init__.cpython-38.pyc
+orders\migrations\__pycache__
+orders\__pycache__
