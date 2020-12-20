@@ -12,3 +12,6 @@ cart/migrations/__pycache__
 cart/migrations/__pycache__/__init__.cpython-38.pyc
 orders\migrations\__pycache__
 orders\__pycache__
+.env
+myshop.myshop\settings.py
+myshop/settings.py
