@@ -131,7 +131,10 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, '/media')
 CART_SESSION_ID = 'cart'
+
+
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 
 BRAINTREE_MERCHANT_ID = 'y7ck4vx3xgf43mpg'
 BRAINTREE_PUBLIC_KEY = '825rk3mwgynnv4jm'

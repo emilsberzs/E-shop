@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 import braintree  # pylint: disable=import-error
 from django.conf import settings
 from orders.models import Order
+from .tasks import payment_completed
 
 # Instantiate Braintree payment gateway
 gateway = braintree.BraintreeGateway(settings.BRAINTREE_CONF)
@@ -30,6 +31,8 @@ def payment_process(request):
             # Store the unique transaction ID
             order.braintree_id = result.transaction.id
             order.save()
+            # launch async task
+            payment_completed.delay(order.id)
             return redirect('payment:done')
         else:
             return redirect('payment:canceled')
@@ -47,4 +50,4 @@ def payment_done(request):
 
 
 def payment_canceled(request):
-    return render(request, 'payment_canceled.html')
+    return render(request, 'payment/canceled.html')
