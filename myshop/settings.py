@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'orders.apps.OrdersConfig',
     'payment.apps.PaymentConfig',
     'coupons.apps.CouponsConfig',
+    'rosetta',
 
 
 ]
@@ -123,7 +124,7 @@ LANGUAGES = (
 )
 
 LOCALE_PATHS = (
-    os.path.join(BASE_DIR, 'locale/')
+    os.path.join(BASE_DIR, 'locale/'),
 )
 
 TIME_ZONE = 'UTC'
