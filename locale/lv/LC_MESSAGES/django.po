@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-23 19:35+0000\n"
-"PO-Revision-Date: 2020-12-23 19:58+0000\n"
+"POT-Creation-Date: 2020-12-23 20:18+0000\n"
+"PO-Revision-Date: 2020-12-23 20:19+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -120,6 +120,7 @@ msgid_plural ""
 "%(show_value)d)."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: .\env\myshop\Lib\site-packages\django\core\validators.py:368
 #, python-format
@@ -131,6 +132,7 @@ msgid_plural ""
 "%(show_value)d)."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: .\env\myshop\Lib\site-packages\django\core\validators.py:387
 #: .\env\myshop\Lib\site-packages\django\forms\fields.py:292
@@ -144,6 +146,7 @@ msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: .\env\myshop\Lib\site-packages\django\core\validators.py:394
 #, python-format
@@ -151,6 +154,7 @@ msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: .\env\myshop\Lib\site-packages\django\core\validators.py:399
 #, python-format
@@ -160,6 +164,7 @@ msgid_plural ""
 "Ensure that there are no more than %(max)s digits before the decimal point."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: .\env\myshop\Lib\site-packages\django\core\validators.py:461
 #, python-format
@@ -502,6 +507,7 @@ msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: .\env\myshop\Lib\site-packages\django\forms\fields.py:552
 msgid "Please either submit a file or check the clear checkbox, not both."
@@ -558,6 +564,7 @@ msgid "Please submit %d or fewer forms."
 msgid_plural "Please submit %d or fewer forms."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: .\env\myshop\Lib\site-packages\django\forms\formsets.py:352
 #, python-format
@@ -565,6 +572,7 @@ msgid "Please submit %d or more forms."
 msgid_plural "Please submit %d or more forms."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: .\env\myshop\Lib\site-packages\django\forms\formsets.py:379
 #: .\env\myshop\Lib\site-packages\django\forms\formsets.py:386
@@ -653,6 +661,7 @@ msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: .\env\myshop\Lib\site-packages\django\template\defaultfilters.py:838
 #, python-format
@@ -1020,6 +1029,7 @@ msgid "%d year"
 msgid_plural "%d years"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: .\env\myshop\Lib\site-packages\django\utils\timesince.py:10
 #, python-format
@@ -1027,6 +1037,7 @@ msgid "%d month"
 msgid_plural "%d months"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: .\env\myshop\Lib\site-packages\django\utils\timesince.py:11
 #, python-format
@@ -1034,6 +1045,7 @@ msgid "%d week"
 msgid_plural "%d weeks"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: .\env\myshop\Lib\site-packages\django\utils\timesince.py:12
 #, python-format
@@ -1041,6 +1053,7 @@ msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: .\env\myshop\Lib\site-packages\django\utils\timesince.py:13
 #, python-format
@@ -1048,6 +1061,7 @@ msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: .\env\myshop\Lib\site-packages\django\utils\timesince.py:14
 #, python-format
@@ -1055,6 +1069,7 @@ msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: .\env\myshop\Lib\site-packages\django\views\csrf.py:110
 msgid "Forbidden"
@@ -1330,13 +1345,45 @@ msgctxt "stick"
 msgid "club"
 msgstr ""
 
-#: .\myshop\settings.py:121
+#: .\myshop\settings.py:122
 msgid "English"
 msgstr "Angļu"
 
-#: .\myshop\settings.py:122
+#: .\myshop\settings.py:123
 msgid "Latvian"
 msgstr "Latviešu"
+
+#: .\myshop\urls.py:24
+msgid "admin/"
+msgstr "administrators/"
+
+#: .\myshop\urls.py:25
+msgid "cart/"
+msgstr "grozs/"
+
+#: .\myshop\urls.py:26
+msgid "coupons/"
+msgstr "kuponi/"
+
+#: .\myshop\urls.py:27
+msgid "orders/"
+msgstr "pasutijumi/"
+
+#: .\myshop\urls.py:28
+msgid "payment/"
+msgstr "maksajums/"
+
+#: .\payment\urls.py:8
+msgid "process/"
+msgstr "apstrade/"
+
+#: .\payment\urls.py:9
+msgid "done/"
+msgstr "pabeigts/"
+
+#: .\payment\urls.py:10
+msgid "canceled/"
+msgstr "noraidits/"
 
 #: .\shop\templates\shop\base.html:8 .\shop\templates\shop\base.html:14
 msgid "My shop"
@@ -1360,7 +1407,11 @@ msgstr[0] ""
 "\n"
 "%(total_items)s preces%(total_items_plural)s, $%(total_price)s"
 msgstr[1] ""
+"\n"
+"%(total_items)s preces%(total_items_plural)s, $%(total_price)s"
 msgstr[2] ""
+"\n"
+"%(total_items)s preces%(total_items_plural)s, $%(total_price)s"
 
 #: .\shop\templates\shop\base.html:29
 msgid "Your cart is empty."
