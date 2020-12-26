@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-23 20:18+0000\n"
+"POT-Creation-Date: 2020-12-26 20:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,66 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
 
-#: .\cart\forms.py:11
+#: .\cart\forms.py:11 .\cart\templates\cart\detail.html:16
 msgid "Quantity"
 msgstr "Skaits"
+
+#: .\cart\templates\cart\detail.html:10
+msgid "Your shopping cart"
+msgstr "Jūsu grozs"
+
+#: .\cart\templates\cart\detail.html:14
+msgid "Image"
+msgstr "Attēls"
+
+#: .\cart\templates\cart\detail.html:15
+msgid "Product"
+msgstr "Produkts"
+
+#: .\cart\templates\cart\detail.html:17 .\cart\templates\cart\detail.html:43
+msgid "Remove"
+msgstr "Dzēst"
+
+#: .\cart\templates\cart\detail.html:18
+msgid "Unit price"
+msgstr "Cena"
+
+#: .\cart\templates\cart\detail.html:19
+msgid "Price"
+msgstr "Kopā"
+
+#: .\cart\templates\cart\detail.html:37
+msgid "Update"
+msgstr "Atjaunināt"
+
+#: .\cart\templates\cart\detail.html:54
+msgid "Subtotal"
+msgstr "Starpsumma"
+
+#: .\cart\templates\cart\detail.html:60
+msgid "coupon"
+msgstr "kupons"
+
+#: .\cart\templates\cart\detail.html:70
+msgid "Total"
+msgstr "Kopsumma"
+
+#: .\cart\templates\cart\detail.html:79
+msgid "People who bought this, also bought"
+msgstr "Bieži pirkts kopā"
+
+#: .\cart\templates\cart\detail.html:91
+msgid "Apply coupon"
+msgstr "Pievienot kuponu"
+
+#: .\cart\templates\cart\detail.html:94
+msgid "Apply"
+msgstr "Pievienot"
+
+#: .\cart\templates\cart\detail.html:100
+msgid "Continue shopping"
+msgstr "Turpināt iepirkties"
+
+#: .\cart\templates\cart\detail.html:101
+msgid "Checkout"
+msgstr "Maksāt"

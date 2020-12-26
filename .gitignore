@@ -17,3 +17,4 @@ myshop.myshop\settings.py
 myshop/settings.py
 coupons\__pycache__
 coupons\migrations\__pycache__
+.vscode/

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-23 20:18+0000\n"
+"POT-Creation-Date: 2020-12-26 20:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1326,11 +1326,11 @@ msgctxt "stick"
 msgid "club"
 msgstr ""
 
-#: .\myshop\settings.py:122
+#: .\myshop\settings.py:124
 msgid "English"
 msgstr ""
 
-#: .\myshop\settings.py:123
+#: .\myshop\settings.py:125
 msgid "Latvian"
 msgstr ""
 
@@ -1352,45 +1352,4 @@ msgstr ""
 
 #: .\myshop\urls.py:28
 msgid "payment/"
-msgstr ""
-
-#: .\payment\urls.py:8
-msgid "process/"
-msgstr ""
-
-#: .\payment\urls.py:9
-msgid "done/"
-msgstr ""
-
-#: .\payment\urls.py:10
-msgid "canceled/"
-msgstr ""
-
-#: .\shop\templates\shop\base.html:8 .\shop\templates\shop\base.html:14
-msgid "My shop"
-msgstr ""
-
-#: .\shop\templates\shop\base.html:20
-msgid "Your cart"
-msgstr ""
-
-#: .\shop\templates\shop\base.html:22
-#, python-format
-msgid ""
-"\n"
-"                %(items)s item, $%(total)s\n"
-"                "
-msgid_plural ""
-"\n"
-"                %(items)s items, $%(total)s\n"
-"                "
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\shop\templates\shop\base.html:29
-msgid "Your cart is empty."
-msgstr ""
-
-#: .\shop\templates\shop\product\detail.html:20
-msgid "Add to cart"
 msgstr ""

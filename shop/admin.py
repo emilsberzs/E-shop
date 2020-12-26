@@ -8,7 +8,7 @@ class CategoryAdmin(TranslatableAdmin):
     list_display = ['name', 'slug']
 
     def get_prepopulated_fields(self, request, obj=None):
-        return {'slug': ('name'), }
+        return {'slug': ('name',)}
 
 
 @admin.register(Product)

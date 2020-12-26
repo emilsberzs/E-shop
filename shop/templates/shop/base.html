@@ -22,7 +22,7 @@
                 <li>
                     <a href="/{{language.code}}/" {% ifequal language.code LANGUAGE_CODE %} class="selected"
                         {%endifequal %}>
-                        {{language.name_local}}</a>
+                        {{language.name_local.title}}</a>
 
                 </li>
                 {% endfor %}
@@ -36,11 +36,8 @@
             {% if total_items > 0 %}
             {% trans "Your cart" %}:
             <a href="{% url 'cart:cart_detail' %}">
-                {% blocktrans with total=cart.get_total_price count items=total_items %}
-                {{items}} item, ${{total}}
-                {% plural %}
-                {{items}} items, ${{total}}
-                {% endblocktrans %}
+                {{ total_items }} {% trans "item" %}{{ total_items|pluralize }},
+                ${{ cart.get_total_price }}
             </a>
             {% else %}
             {% trans "Your cart is empty." %}
